@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+/* This method takes the focus out of the EditText */
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     int score = 0;
+
+    /* This method saves the name from EditText and counts scores */
 
     public void showMyResult(View view) {
         EditText nameField = (EditText) findViewById(R.id.name_field);
@@ -91,6 +94,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /* This method displays different score message depending on the score range */
+
     public String displayScore (String name, int score) {
 
         String scoreMessage;
@@ -112,6 +117,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    /* This method resets the quiz and comes back to the beginning of the ScrollView */
 
     public void reset (View view) {
         score = 0;
