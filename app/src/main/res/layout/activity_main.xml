@@ -49,20 +49,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Misza"
+            android:text="@string/misza"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Paweł"
+            android:text="@string/pawel"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/answer_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seba"
+            android:text="@string/seba"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -71,7 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="2. What time did the Pope John Paul II died?"
+            android:text="@string/question_two"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -82,20 +82,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="22:18"
+            android:text="@string/_22_18"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/answer_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="21:37"
+            android:text="@string/_21_37"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="17:21"
+            android:text="@string/_17_21"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -104,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="3. Which animal do you associate with Arka Gdynia football team?"
+            android:text="@string/question_three"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -116,19 +116,19 @@
             android:id="@+id/answer_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="pig"
+            android:text="@string/pig"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="seal"
+            android:text="@string/seal"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="bear"
+            android:text="@string/bear"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="4. Which vodka is gluten free?"
+            android:text="@string/question_four"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -148,20 +148,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Soplica"
+            android:text="@string/soplica"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/answer_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Luksusowa"
+            android:text="@string/luksusowa"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Absolwent"
+            android:text="@string/absolwent"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -170,7 +170,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="5. What is the Polish food speciality?"
+            android:text="@string/question_five"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -181,20 +181,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fried cheese"
+            android:text="@string/fried_cheese"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Schnitzel"
+            android:text="@string/schnitzel"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/answer_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dumplings"
+            android:text="@string/dumplings"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -203,7 +203,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="6. What is the problem of a typical Polish mother?"
+            android:text="@string/question_six"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -215,19 +215,19 @@
             android:id="@+id/answer_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sick daughter"
+            android:text="@string/sick_daughter"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hiperactive son"
+            android:text="@string/hiperactive_son"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stupid husband"
+            android:text="@string/stupid_husband"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -236,7 +236,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="7. How many dishes should you prepare for a proper Christmas Eve dinner?"
+            android:text="@string/question_seven"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -247,20 +247,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4"
+            android:text="@string/_4"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="7"
+            android:text="@string/_7"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/answer_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="12"
+            android:text="@string/_12"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -269,7 +269,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="8. What does the stork bring?"
+            android:text="@string/question_eight"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -281,19 +281,19 @@
             android:id="@+id/answer_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Babies"
+            android:text="@string/babies"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Money"
+            android:text="@string/money"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Frogs"
+            android:text="@string/frogs"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -302,7 +302,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="9. Which fashion accessory is characteristic for an old religious lady ?"
+            android:text="@string/question_nine"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -313,20 +313,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Woolen hat"
+            android:text="@string/woolen_hat"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/answer_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mohair beret"
+            android:text="@string/mohair_beret"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Leather mittens"
+            android:text="@string/leather_mittens"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -335,7 +335,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="10. Which city should be excluded from Poland?"
+            android:text="@string/question_ten"
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
@@ -346,20 +346,20 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Zamość"
+            android:text="@string/zamosc"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/answer_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sosnowiec"
+            android:text="@string/sosnowiec"
             android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mikołajki"
+            android:text="@string/mikolajki"
             android:layout_marginBottom="16dp"/>
 
         </RadioGroup>
@@ -367,18 +367,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show my result"
+            android:text="@string/show_my_result"
             android:layout_marginBottom="16dp"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             android:onClick="showMyResult"
             android:background="#122b9e"
             android:layout_gravity="center"/>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="invisible"/>
 
         <TextView
             android:id="@+id/score_display"
@@ -392,7 +387,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Reset"
+            android:text="@string/reset"
             android:layout_marginBottom="32dp"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
