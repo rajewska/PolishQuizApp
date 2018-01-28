@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">PolishQuizApp</string>
-    <string name="question_one">1. What is the name of a typical Polish guy, who wears a tracksuit?</string>
     <string name="quiz_description">Answer few simple questions and find out if you could survive in Poland!</string>
     <string name="what_s_your_name">What\'s your name?</string>
+    <string name="question_one">1. What is the name of a typical Polish guy, who wears a tracksuit?</string>
     <string name="misza">Misza</string>
     <string name="pawel">Paweł</string>
     <string name="seba">Seba</string>
@@ -44,4 +44,5 @@
     <string name="mikolajki">Mikołajki</string>
     <string name="show_my_result">Show my result</string>
     <string name="reset">Reset</string>
+
 </resources>
