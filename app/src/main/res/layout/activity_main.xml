@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" >
+    android:layout_height="wrap_content"
+    android:background="#dba02d">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,7 +14,9 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:src="@drawable/quiz_cover1"
+            android:scaleType="center"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,7 +31,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/what_s_your_name"
             android:layout_marginBottom="16dp"
-            android:inputType="textCapWords"/>
+            android:inputType="textCapWords"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,6 +42,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -69,6 +75,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -101,6 +108,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -133,6 +141,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -165,6 +174,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -197,6 +207,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -229,6 +240,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -261,6 +273,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -293,6 +306,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -325,6 +339,7 @@
             android:layout_marginBottom="16dp"/>
 
         <RadioGroup
+            android:id="@+id/radio10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -354,9 +369,11 @@
             android:layout_height="wrap_content"
             android:text="Show my result"
             android:layout_marginBottom="16dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:onClick="showMyResult"/>
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:onClick="showMyResult"
+            android:background="#122b9e"
+            android:layout_gravity="center"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -368,7 +385,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:layout_marginBottom="32dp"/>
+            android:layout_marginBottom="16dp"
+            android:focusable="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_marginBottom="32dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:onClick="reset"
+            android:background="#122b9e"
+            android:layout_gravity="center"/>
 
 
 
