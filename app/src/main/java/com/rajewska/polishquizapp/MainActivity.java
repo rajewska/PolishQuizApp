@@ -19,13 +19,15 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    int score = 0;
+/* This method takes the focus out of the EditText */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
     }
-/* This method takes the focus out of the EditText */
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
@@ -45,8 +47,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.dispatchTouchEvent(event);
     }
-
-    int score = 0;
 
     /* This method saves the user's name and checks the answers */
 

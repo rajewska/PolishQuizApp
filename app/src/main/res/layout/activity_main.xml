@@ -15,31 +15,31 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/quiz_cover1"
-            android:scaleType="center"/>
+            android:scaleType="center"
+            android:src="@drawable/quiz_cover1"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/quiz_description"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <EditText
             android:id="@+id/name_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/what_s_your_name"
             android:layout_marginBottom="16dp"
+            android:hint="@string/what_s_your_name"
             android:inputType="textCapWords"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_one"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio1"
@@ -49,30 +49,30 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/misza"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/misza"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pawel"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/pawel"/>
 
         <RadioButton
             android:id="@+id/answer_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/seba"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/seba"/>
 
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_two"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio2"
@@ -82,30 +82,30 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_22_18"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/_22_18"/>
 
         <RadioButton
             android:id="@+id/answer_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_21_37"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/_21_37"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_17_21"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/_17_21"/>
 
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_three"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio3"
@@ -116,59 +116,59 @@
             android:id="@+id/answer_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pig"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/pig"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/seal"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/seal"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bear"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/bear"/>
 
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_four"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <CheckBox
             android:id="@+id/answer_4a"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/soplica"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/soplica"/>
 
         <CheckBox
             android:id="@+id/answer_4b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/luksusowa"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/luksusowa"/>
 
 
         <CheckBox
             android:id="@+id/answer_4c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/j_a_baczewski"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/j_a_baczewski"/>
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_five"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio5"
@@ -178,30 +178,30 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/fried_cheese"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/fried_cheese"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/schnitzel"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/schnitzel"/>
 
         <RadioButton
             android:id="@+id/answer_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dumplings"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/dumplings"/>
 
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_six"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio6"
@@ -212,29 +212,29 @@
             android:id="@+id/answer_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sick_daughter"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/sick_daughter"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hiperactive_son"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/hiperactive_son"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/stupid_husband"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/stupid_husband"/>
 
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_seven"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio7"
@@ -244,30 +244,30 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_4"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/_4"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_7"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/_7"/>
 
         <RadioButton
             android:id="@+id/answer_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_12"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/_12"/>
 
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_eight"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <EditText
             android:id="@+id/answer_8"
@@ -279,9 +279,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_nine"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio9"
@@ -291,30 +291,30 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/woolen_hat"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/woolen_hat"/>
 
         <RadioButton
             android:id="@+id/answer_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mohair_beret"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/mohair_beret"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/leather_mittens"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/leather_mittens"/>
 
         </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
             android:text="@string/question_ten"
-            android:layout_marginBottom="16dp"/>
+            android:textSize="16sp"/>
 
         <RadioGroup
             android:id="@+id/radio10"
@@ -324,54 +324,54 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/zamosc"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/zamosc"/>
 
         <RadioButton
             android:id="@+id/answer_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sosnowiec"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/sosnowiec"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mikolajki"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="@string/mikolajki"/>
 
         </RadioGroup>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/show_my_result"
+            android:layout_gravity="center"
             android:layout_marginBottom="16dp"
+            android:background="#122b9e"
+            android:onClick="showMyResult"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:onClick="showMyResult"
-            android:background="#122b9e"
-            android:layout_gravity="center"/>
+            android:text="@string/show_my_result"/>
 
         <TextView
             android:id="@+id/score_display"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
             android:layout_marginBottom="16dp"
             android:focusable="true"
+            android:textSize="16sp"
             />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/reset"
+            android:layout_gravity="center"
             android:layout_marginBottom="32dp"
+            android:background="#122b9e"
+            android:onClick="reset"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:onClick="reset"
-            android:background="#122b9e"
-            android:layout_gravity="center"/>
+            android:text="@string/reset"/>
 
 
 
