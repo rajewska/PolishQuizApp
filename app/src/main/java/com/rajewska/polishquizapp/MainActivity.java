@@ -15,6 +15,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,44 +48,63 @@ public class MainActivity extends AppCompatActivity {
 
     int score = 0;
 
-    /* This method saves the name from EditText and counts scores */
+    /* This method saves the user's name and checks the answers */
 
     public void showMyResult(View view) {
         EditText nameField = (EditText) findViewById(R.id.name_field);
         String name = nameField.getText().toString();
-
+        if (name.equalsIgnoreCase("")) {
+            Toast.makeText(this, "Please write your name", Toast.LENGTH_SHORT).show() ;
+            return;
+        }
 
         RadioButton question1 = findViewById(R.id.answer_1);
         RadioButton question2 = findViewById(R.id.answer_2);
         RadioButton question3 = findViewById(R.id.answer_3);
-        RadioButton question4 = findViewById(R.id.answer_4);
+
+        CheckBox question4b = findViewById(R.id.answer_4b);
+        CheckBox question4c = findViewById(R.id.answer_4c);
+
         RadioButton question5 = findViewById(R.id.answer_5);
         RadioButton question6 = findViewById(R.id.answer_6);
         RadioButton question7 = findViewById(R.id.answer_7);
-        RadioButton question8 = findViewById(R.id.answer_8);
+
+        EditText answer8 = findViewById(R.id.answer_8);
+        String question8 = answer8.getText().toString();
+
         RadioButton question9 = findViewById(R.id.answer_9);
         RadioButton question10 = findViewById(R.id.answer_10);
 
-        if (question1.isChecked())
+        if (question1.isChecked()) {
             score = score + 1;
-        if (question2.isChecked())
+        }
+        if (question2.isChecked()) {
             score = score + 1;
-        if (question3.isChecked())
+        }
+        if (question3.isChecked()) {
             score = score + 1;
-        if (question4.isChecked())
+        }
+        if (question4b.isChecked() && question4c.isChecked()) {
             score = score + 1;
-        if (question5.isChecked())
+        }
+        if (question5.isChecked()) {
             score = score + 1;
-        if (question6.isChecked())
+        }
+        if (question6.isChecked()) {
             score = score + 1;
-        if (question7.isChecked())
+        }
+        if (question7.isChecked()) {
             score = score + 1;
-        if (question8.isChecked())
+        }
+        if (question8.equalsIgnoreCase("babies")) {
             score = score + 1;
-        if (question9.isChecked())
+        }
+        if (question9.isChecked()) {
             score = score + 1;
-        if (question10.isChecked())
+        }
+        if (question10.isChecked()) {
             score = score + 1;
+        }
 
         String scoreMessage = displayScore(name, score);
 
@@ -126,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
         EditText textField = (EditText) findViewById(R.id.name_field);
         textField.setText(null);
 
-
         RadioGroup radio1 = (RadioGroup) findViewById(R.id.radio1);
         radio1.clearCheck();
 
@@ -136,8 +155,19 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup radio3 = (RadioGroup) findViewById(R.id.radio3);
         radio3.clearCheck();
 
-        RadioGroup radio4 = (RadioGroup) findViewById(R.id.radio4);
-        radio4.clearCheck();
+        CheckBox check4a = (CheckBox) findViewById(R.id.answer_4a);
+        if (check4a.isChecked()) {
+            check4a.toggle();}
+
+        CheckBox check4b = (CheckBox) findViewById(R.id.answer_4b);
+        if (check4b.isChecked()) {
+            check4b.toggle();
+        }
+
+        CheckBox check4c = (CheckBox) findViewById(R.id.answer_4c);
+        if (check4c.isChecked()) {
+            check4c.toggle();
+        }
 
         RadioGroup radio5 = (RadioGroup) findViewById(R.id.radio5);
         radio5.clearCheck();
@@ -148,8 +178,8 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup radio7 = (RadioGroup) findViewById(R.id.radio7);
         radio7.clearCheck();
 
-        RadioGroup radio8 = (RadioGroup) findViewById(R.id.radio8);
-        radio8.clearCheck();
+        EditText answer8 = (EditText) findViewById(R.id.answer_8);
+        answer8.setText(null);
 
         RadioGroup radio9 = (RadioGroup) findViewById(R.id.radio9);
         radio9.clearCheck();

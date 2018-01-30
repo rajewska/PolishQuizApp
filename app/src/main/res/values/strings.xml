@@ -14,7 +14,7 @@
     <string name="pig">pig</string>
     <string name="seal">seal</string>
     <string name="bear">bear</string>
-    <string name="question_four">4. Which vodka is gluten free?</string>
+    <string name="question_four">4. Which vodkas are gluten free?</string>
     <string name="soplica">Soplica</string>
     <string name="luksusowa">Luksusowa</string>
     <string name="absolwent">Absolwent</string>
@@ -44,5 +44,7 @@
     <string name="mikolajki">Mikołajki</string>
     <string name="show_my_result">Show my result</string>
     <string name="reset">Reset</string>
+    <string name="j_a_baczewski">J.A.Baczewski</string>
+    <string name="type_your_answer_here">Type your answer here</string>
 
 </resources>
