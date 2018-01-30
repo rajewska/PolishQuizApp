@@ -20,7 +20,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     int score = 0;
-/* This method takes the focus out of the EditText */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+
+    /* This method takes the focus out of the EditText */
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
