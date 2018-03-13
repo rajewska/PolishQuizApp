@@ -19,13 +19,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score = 0;
+    int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     /* This method takes the focus out of the EditText */
@@ -55,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         EditText nameField = (EditText) findViewById(R.id.name_field);
         String name = nameField.getText().toString();
         if (name.equalsIgnoreCase("")) {
-            Toast.makeText(this, "Please write your name", Toast.LENGTH_SHORT).show() ;
+            Toast.makeText(this, "Please write your name", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -112,12 +111,13 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreSummary = (TextView) findViewById(R.id.score_display);
         scoreSummary.setText(scoreMessage);
 
-
     }
 
-    /* This method displays different score message depending on the score range */
+    /* This method displays different score message depending on the score range and a toast with number of points */
 
     public String displayScore (String name, int score) {
+
+        Toast.makeText(this, score + "/10 points", Toast.LENGTH_SHORT).show();
 
         String scoreMessage;
 
@@ -194,12 +194,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView scoreDisplay = (TextView) findViewById(R.id.score_display);
         scoreDisplay.setText(null);
-
-
     }
-
-
-
 }
 
 
