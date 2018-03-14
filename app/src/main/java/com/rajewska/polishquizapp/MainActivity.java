@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
     /* This method saves the user's name and checks the answers */
 
     public void showMyResult(View view) {
+        int score = 0;
         EditText nameField = (EditText) findViewById(R.id.name_field);
         String name = nameField.getText().toString();
         if (name.equalsIgnoreCase("")) {
@@ -58,22 +59,22 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        RadioButton question1 = findViewById(R.id.answer_1);
-        RadioButton question2 = findViewById(R.id.answer_2);
-        RadioButton question3 = findViewById(R.id.answer_3);
+        RadioButton question1 = findViewById(R.id.answer_1_rb);
+        RadioButton question2 = findViewById(R.id.answer_2_rb);
+        RadioButton question3 = findViewById(R.id.answer_3_rb);
 
-        CheckBox question4b = findViewById(R.id.answer_4b);
-        CheckBox question4c = findViewById(R.id.answer_4c);
+        CheckBox question4b = findViewById(R.id.answer_4b_cb);
+        CheckBox question4c = findViewById(R.id.answer_4c_cb);
 
-        RadioButton question5 = findViewById(R.id.answer_5);
-        RadioButton question6 = findViewById(R.id.answer_6);
-        RadioButton question7 = findViewById(R.id.answer_7);
+        RadioButton question5 = findViewById(R.id.answer_5_rb);
+        RadioButton question6 = findViewById(R.id.answer_6_rb);
+        RadioButton question7 = findViewById(R.id.answer_7_rb);
 
-        EditText answer8 = findViewById(R.id.answer_8);
+        EditText answer8 = findViewById(R.id.answer_8_et);
         String question8 = answer8.getText().toString();
 
-        RadioButton question9 = findViewById(R.id.answer_9);
-        RadioButton question10 = findViewById(R.id.answer_10);
+        RadioButton question9 = findViewById(R.id.answer_9_rb);
+        RadioButton question10 = findViewById(R.id.answer_10_rb);
 
         if (question1.isChecked()) {
             score = score + 1;
@@ -156,16 +157,16 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup radio3 = (RadioGroup) findViewById(R.id.radio3);
         radio3.clearCheck();
 
-        CheckBox check4a = (CheckBox) findViewById(R.id.answer_4a);
+        CheckBox check4a = (CheckBox) findViewById(R.id.answer_4a_cb);
         if (check4a.isChecked()) {
             check4a.toggle();}
 
-        CheckBox check4b = (CheckBox) findViewById(R.id.answer_4b);
+        CheckBox check4b = (CheckBox) findViewById(R.id.answer_4b_cb);
         if (check4b.isChecked()) {
             check4b.toggle();
         }
 
-        CheckBox check4c = (CheckBox) findViewById(R.id.answer_4c);
+        CheckBox check4c = (CheckBox) findViewById(R.id.answer_4c_cb);
         if (check4c.isChecked()) {
             check4c.toggle();
         }
@@ -179,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
         RadioGroup radio7 = (RadioGroup) findViewById(R.id.radio7);
         radio7.clearCheck();
 
-        EditText answer8 = (EditText) findViewById(R.id.answer_8);
+        EditText answer8 = (EditText) findViewById(R.id.answer_8_et);
         answer8.setText(null);
 
         RadioGroup radio9 = (RadioGroup) findViewById(R.id.radio9);
