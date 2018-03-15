@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         EditText nameField = (EditText) findViewById(R.id.name_field);
         String name = nameField.getText().toString();
         if (name.equalsIgnoreCase("")) {
-            Toast.makeText(this, "Please write your name", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.type_name, Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         RadioButton question2 = findViewById(R.id.answer_2_rb);
         RadioButton question3 = findViewById(R.id.answer_3_rb);
 
+        CheckBox question4a = findViewById(R.id.answer_4a_cb);
         CheckBox question4b = findViewById(R.id.answer_4b_cb);
         CheckBox question4c = findViewById(R.id.answer_4c_cb);
 
@@ -85,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         if (question3.isChecked()) {
             score = score + 1;
         }
-        if (question4b.isChecked() && question4c.isChecked()) {
+        if (!question4a.isChecked() && question4b.isChecked() && question4c.isChecked()) {
             score = score + 1;
         }
         if (question5.isChecked()) {
@@ -118,22 +119,22 @@ public class MainActivity extends AppCompatActivity {
 
     public String displayScore (String name, int score) {
 
-        Toast.makeText(this, score + "/10 points", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, score + getString(R.string.points), Toast.LENGTH_SHORT).show();
 
         String scoreMessage;
 
         if (score <= 3) {
-            scoreMessage = "Dear " + name + ", you got only " + score + " points." +
-                    " For safety reasons don't go to " + "Poland alone. Try eating some pierogi, " +
-                    "listen to disco polo and see how it feels.";
+            scoreMessage = getString(R.string.description_1p1) + name + getString(R.string.description_1p2) + score + getString(R.string.description_1p3) +
+                    getString(R.string.description_1p4) + getString(R.string.description_1p5) +
+                    getString(R.string.description_1p6);
         } else if ((score >= 4) && (score < 8)) {
-            scoreMessage = "Not bad, " + name + ". You got " + score + " points. " +
-                    "You could probably survive in Poland for a while. Consider renting an Opel " +
-                    "and exploring Mazury.";
+            scoreMessage = getString(R.string.description_2p1) + name + getString(R.string.description_2p2) + score + getString(R.string.description_2p3) +
+                    getString(R.string.description_2p4) +
+                    getString(R.string.description_2p5);
         } else {
-            scoreMessage = "Well done " + name + "! You got " + score + " points. " +
-                    "Looks like you know how to get 500+ " + "and find the best deals on Olx. " +
-                    "You can move back to Poland as soon as " + "they kick you out of Britain...";
+            scoreMessage = getString(R.string.description_3p1) + name + getString(R.string.description_3p2) + score + getString(R.string.description_3p3) +
+                    getString(R.string.description_3p4) + getString(R.string.description_3p5) +
+                    getString(R.string.description_3p6) + getString(R.string.description_3p7);
         }
         return scoreMessage;
 

@@ -46,5 +46,25 @@
     <string name="reset">Reset</string>
     <string name="j_a_baczewski">J.A.Baczewski</string>
     <string name="type_your_answer_here">Type your answer here</string>
+    <string name="points">/10 points</string>
+    <string name="description_1p1">Dear \u0020</string>
+    <string name="description_1p2">, you got only \u0020</string>
+    <string name="description_1p3">\u0020 points.</string>
+    <string name="description_1p4">\u0020 For safety reasons don\'t go to</string>
+    <string name="description_1p5">\u0020 Poland alone. Try eating some pierogi,</string>
+    <string name="description_1p6">\u0020 listen to disco polo and see how it feels.</string>
+    <string name="description_2p1">Not bad, \u0020</string>
+    <string name="description_2p2">. You got \u0020</string>
+    <string name="description_2p3">\u0020 points.</string>
+    <string name="description_2p4">\u0020 You could probably survive in Poland for a while. Consider renting an Opel</string>
+    <string name="description_2p5">\u0020 and exploring Mazury.</string>
+    <string name="description_3p1">Well done \u0020 </string>
+    <string name="description_3p2">! You got \u0020</string>
+    <string name="description_3p3">\u0020 points.</string>
+    <string name="description_3p4">\u0020 Looks like you know how to get 500+</string>
+    <string name="description_3p5">\u0020 and find the best deals on Olx.</string>
+    <string name="description_3p6">\u0020 You can move back to Poland as soon as</string>
+    <string name="description_3p7">\u0020 they kick you out of Britain...</string>
+    <string name="type_name">Please write your name</string>
 
 </resources>
